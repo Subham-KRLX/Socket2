@@ -11,3 +11,6 @@ li{display:flex;align-items:center;justify-content:space-between;padding:.5rem;b
 .check{width:18px;height:18px;border-radius:4px;border:1px solid #ccc;display:inline-block}
 .check.checked{background:var(--accent)}
 .actions button{background:transparent;border:none;color:#888;cursor:pointer;padding:.25rem}
+
+/* Cosmetic tweak: slightly increase spacing for readability */
+.app{padding:1.25rem}
