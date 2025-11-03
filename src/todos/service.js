@@ -1,5 +1,6 @@
 // simple in-memory todo service
 let todos = [];
+// service version: 1.0.0 — lightweight in-memory store
 
 exports.getAll = () => todos;
 
