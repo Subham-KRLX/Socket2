@@ -14,3 +14,6 @@ li{display:flex;align-items:center;justify-content:space-between;padding:.5rem;b
 
 /* Cosmetic tweak: slightly increase spacing for readability */
 .app{padding:1.25rem}
+/* Minor whitespace/style tweak for box-shadow */
+/* The following line is a placeholder for the intended change */
+/* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); */
