@@ -1,19 +1,23 @@
 :root{--bg:#f7f7f8;--accent:#2b90ff}
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);margin:0;padding:1rem}
-.app{max-width:640px;margin:1rem auto;background:#fff;padding:1rem;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.app{max-width:720px;margin:1.25rem auto;background:#fff;padding:1.25rem;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.app-header{margin-bottom:0.75rem}
+.app-header h1{margin:0;font-size:1.5rem;color:var(--accent)}
+.subtitle{margin:0;margin-top:.25rem;color:#666;font-size:.9rem}
+
 form{display:flex;gap:.5rem;margin-bottom:1rem}
-input{flex:1;padding:.5rem;border:1px solid #ddd;border-radius:6px}
-button{background:var(--accent);color:#fff;border:none;padding:.5rem 1rem;border-radius:6px}
+input{flex:1;padding:.6rem;border:1px solid #e6e6e6;border-radius:8px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.6)}
+input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(43,144,255,0.08)}
+button{background:var(--accent);color:#fff;border:none;padding:.5rem 1rem;border-radius:8px;cursor:pointer}
+button:hover{filter:brightness(.95)}
+
 ul{list-style:none;padding:0;margin:0}
-li{display:flex;align-items:center;justify-content:space-between;padding:.5rem;border-bottom:1px solid #eee}
+li{display:flex;align-items:center;justify-content:space-between;padding:.6rem;border-bottom:1px solid #f1f1f1}
 .todo-left{display:flex;align-items:center;gap:.75rem}
 .todo-title{font-size:1rem}
-.check{width:18px;height:18px;border-radius:4px;border:1px solid #ccc;display:inline-block}
+.check{width:18px;height:18px;border-radius:4px;border:1px solid #ddd;display:inline-block}
 .check.checked{background:var(--accent)}
 .actions button{background:transparent;border:none;color:#888;cursor:pointer;padding:.25rem}
 
-/* Cosmetic tweak: slightly increase spacing for readability */
-.app{padding:1.25rem}
-/* Minor whitespace/style tweak for box-shadow */
-/* The following line is a placeholder for the intended change */
-/* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); */
+/* Slightly larger app padding for readability */
+.app{padding:1.5rem}
