@@ -77,5 +77,3 @@ Notes
 If you'd like, I can also deploy the Todo UI to GitHub Pages now and/or add CI; tell me which you'd prefer.
 
 ````
-
-Commit bump: automated edit (2025-11-04) — small non-functional change to increase commit count.
